@@ -13,6 +13,9 @@
 		175E56452769FB1900D31F5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175E56432769FB1900D31F5A /* Main.storyboard */; };
 		175E56472769FB1A00D31F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175E56462769FB1A00D31F5A /* Assets.xcassets */; };
 		175E564A2769FB1A00D31F5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175E56482769FB1A00D31F5A /* LaunchScreen.storyboard */; };
+		17FF0933276CD936000D3A31 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FF0932276CD936000D3A31 /* DetailTableViewController.swift */; };
+		17FF0937276CD941000D3A31 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FF0935276CD941000D3A31 /* apple.png */; };
+		17FF0938276CD941000D3A31 /* hws.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FF0936276CD941000D3A31 /* hws.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		175E56462769FB1A00D31F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		175E56492769FB1A00D31F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		175E564B2769FB1A00D31F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FF0932276CD936000D3A31 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		17FF0935276CD941000D3A31 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		17FF0936276CD941000D3A31 /* hws.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hws.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +65,24 @@
 				175E563D2769FB1900D31F5A /* AppDelegate.swift */,
 				175E563F2769FB1900D31F5A /* SceneDelegate.swift */,
 				175E56412769FB1900D31F5A /* ViewController.swift */,
+				17FF0932276CD936000D3A31 /* DetailTableViewController.swift */,
 				175E56432769FB1900D31F5A /* Main.storyboard */,
 				175E56462769FB1A00D31F5A /* Assets.xcassets */,
 				175E56482769FB1A00D31F5A /* LaunchScreen.storyboard */,
 				175E564B2769FB1A00D31F5A /* Info.plist */,
+				17FF0934276CD941000D3A31 /* Content1 */,
 			);
 			path = "Project 4";
+			sourceTree = "<group>";
+		};
+		17FF0934276CD941000D3A31 /* Content1 */ = {
+			isa = PBXGroup;
+			children = (
+				17FF0935276CD941000D3A31 /* apple.png */,
+				17FF0936276CD941000D3A31 /* hws.png */,
+			);
+			name = Content1;
+			path = ../../../Content1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +145,8 @@
 			files = (
 				175E564A2769FB1A00D31F5A /* LaunchScreen.storyboard in Resources */,
 				175E56472769FB1A00D31F5A /* Assets.xcassets in Resources */,
+				17FF0938276CD941000D3A31 /* hws.png in Resources */,
+				17FF0937276CD941000D3A31 /* apple.png in Resources */,
 				175E56452769FB1900D31F5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17FF0933276CD936000D3A31 /* DetailTableViewController.swift in Sources */,
 				175E56422769FB1900D31F5A /* ViewController.swift in Sources */,
 				175E563E2769FB1900D31F5A /* AppDelegate.swift in Sources */,
 				175E56402769FB1900D31F5A /* SceneDelegate.swift in Sources */,
