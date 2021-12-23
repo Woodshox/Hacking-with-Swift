@@ -45,7 +45,7 @@ class DetailTableViewController: UITableViewController {
         }
         
         override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-            if let webViewController = storyboard?.instantiateViewController(withIdentifier: "WebView") as? ViewController {
+            if let webViewController = storyboard?.instantiateViewController(withIdentifier: "Detail") as? ViewController {
                 webViewController.webSiteToLoad = websites[indexPath.row]
                 navigationController?.pushViewController(webViewController, animated: true)
             }
