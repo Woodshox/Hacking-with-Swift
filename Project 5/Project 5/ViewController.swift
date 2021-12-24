@@ -124,7 +124,7 @@ class ViewController: UITableViewController {
                 showError(errorTitle: "Word not possible.", errorMessage: "You cant spell that word from \(title!)")
             }
         } else {
-            showError(errorTitle: "SAME WORD", errorMessage: "Dude")
+            showError(errorTitle: "SAME WORD", errorMessage: "Dude ")
         }
         
     }
