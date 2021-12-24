@@ -8,4 +8,4 @@ To trigger the bug, look for a three-letter word in your starting word, and ente
 
 
  
-![grab-landing-page](https://github.com/Woodshox/Hacking-with-Swift/blob/main/Project%205/Project%205.gif)
+![grab-landing-page](https://github.com/Woodshox/Hacking-with-Swift/blob/main/Project%205/%C2%A0Project5.gif)
