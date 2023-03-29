@@ -1,4 +1,4 @@
-# 100DaysHackingWithSwift
+# 100 Days Hacking With Swift
 
 Project from https://www.hackingwithswift.com/100/
 
